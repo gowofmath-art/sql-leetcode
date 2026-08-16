@@ -12,7 +12,8 @@
 -- 編寫一個解決方案，用於查找大國（如：美國、中國、印度等）的名稱、人口和麵積。
 
 -- 想法：
--- 集合：World , 篩選對象：name , 條件 area > 3000000 or population > 25000000
+-- 集合：World , 篩選對象：name , population , area , 
+-- 條件 area > 3000000 or population > 25000000
 
 Select name , population , area
 from World
