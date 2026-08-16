@@ -9,7 +9,7 @@
 
 -- 集合：Views , 
 -- 篩選對象：id , 去重複要加上 Distinct 
--- 條件： author_id == viewer_id
+-- 條件： author_id = viewer_id
 -- 升序排列要用 order by (對象)
 
 Select Distinct author_id as id 
