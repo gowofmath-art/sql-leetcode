@@ -8,6 +8,7 @@
 -- 集合：Tweets
 -- 篩選對象：tweet_id
 -- 條件：content > 15
+-- 使用CHAR_LENGTH 函數做字串的計算
 
 SELECT tweet_id
 FROM Tweets
